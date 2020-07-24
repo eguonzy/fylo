@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Open Sans';
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*---------------------------------navbar--------------*/
+
+.nav-bar {
+    display: flex;
+    font-size: 14px;
+    font-family: Raleway;
+    margin: 10px 10px 2rem 10px;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    padding: 1em
+}
+
+.logo {
+    margin: auto auto 0 auto;
+    justify-self: flex-start;
+    width: 30%;
+}
+
+.nav-bar .p {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+/*----------------------------------section1---------------*/
+
+.all-files {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+.all-files img {
+    max-width: 80%;
+    z-index: 10;
+}
+
+.all-files :nth-child(2) {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin-top: 2em;
+    line-height: 1.5em
+}
+
+.all-files :nth-child(3) {
+    font-weight: 400;
+    max-width: 85%;
+    margin: 1.5em auto;
+    font-size: 14px;
+    z-index: 10;
+    line-height: 1.6em;
+}
+
+.all-files :nth-child(4) {
+    padding: 1.5em 25%;
+    width: fit-content;
+    border: solid transparent thin;
+    border-radius: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    z-index: 10
+}
+
+/*-------------------------------section2-----------------------*/
+
+.con {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.con img {
+    margin-bottom: 2rem;
+}
+
+.con :nth-child(2) {
+    font-weight: 700;
+    font-family: Raleway;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.con :nth-child(3) {
+    max-width: 80%;
+    font-weight: 100;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+/*---------------------section3----------------*/
+
+.section3 {
+    margin: 6em 0 0 0;
+}
+
+.productive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.rightt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.productive .pro-img {
+    width: 90%;
+    margin-bottom: 1.5em;
+}
+
+.productive .stay {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 1.2em;
+    margin-right: 4px;
+}
+
+.productive .never, .productive .securely {
+    font-weight: 100;
+    font-size: 14px;
+    max-width: 85%;
+    margin: 1rem 0 0 0.6em;
+    line-height: 1.6em;
+}
+
+#works {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: max-content;
+    border-bottom: hsl(176, 68%, 64%) solid thin;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+    margin-top: 1rem;
+}
+
+.productive #works img {
+    width: 20px;
+    align-self: flex-start;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+
+/*--------------------section 4 mobile----------*/
+
+.section4 {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 .quotes {
+    align-self: flex-start;
+    margin-left: 2.7rem;
+    height: 16px;
+}
+
+.profile1 {
+    background-color: hsl(219, 30%, 18%);
+    width: 80%;
+    padding: 1.8rem 1.5rem 1.5rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.review {
+    margin: auto;
+    font-size: 11px;
+    line-height: 1.3rem;
+}
+
+.pro1 img {
+    width: 12%;
+    border-radius: 50%;
+    align-self: baseline;
+    margin-right: 0.6em;
+}
+
+.pro1 {
+    display: flex;
+    margin-top: 1em;
+}
+
+.name {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+}
+
+.position {
+    font-size: 8px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+/*---------------------------------section 5 mobile---------------*/
+
+.section5 {
+    margin-top: 1rem;
+    height: 22rem;
+}
+
+.sec5 {
+    position: relative;
+    top: 50%;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1.5rem 1.8rem 1.5rem;
+    max-width: 90%;
+    background-color: hsl(217, 28%, 15%);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header5 {
+    font-weight: 700;
+    font-family: Raleway;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.body5 {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email, .sub {
+    padding: 1.5em;
+    width: 100%;
+    border: solid transparent thin;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#email {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+::placeholder {
+    color: rgb(224, 221, 221);
+}
+
+.sub {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+}
+
+/*----------------------------------------section 6 mobile----------------------*/
+
+.section6 {
+    background-color: hsl(216, 53%, 9%);
+    width: 100%
+}
+
+.sec6 {
+    padding-top: 70%;
+    width: 100%;
+}
+
+.img0 {
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.img1 {
+    margin: 6px 6% 0 6%;
+    width: 15px;
+}
+
+.p1 {
+    margin-right: 5%;
+    font-weight: 100;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+/*--------------------------section7------------------------*/
+
+.section7 {
+    background-color: hsl(216, 53%, 9%);
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    height: max-content;
+}
+
+.first p, .second p {
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.first .blog {
+    margin-bottom: 0;
+}
+
+.first, .second {
+    display: block;
+    margin: 0 0 0 6%;
+    padding-top: 5rem;
+}
+
+.second {
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+
+/*--------------------------section7---------------------*/
+
+.section8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.tweet, .facebook {
+    margin-right: 3em;
+    border: solid white 1px;
+    border-radius: 50%;
+    padding: 5px;
+    align-self: flex-start;
+}
+
+.facebook {
+    margin: 0;
+}
+
+.fin {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    background-color: hsl(216, 53%, 9%);
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%)
+}
+
+@media only screen and (min-width:980px) {
+    /*---------------------------------navbar-Desktop--------------*/
+    .nav-bar {
+        margin: 40px 10px 2rem 30px;
+        background-color: inherit;
+    }
+    .logo {
+        margin: auto auto 0 2%;
+        width: 15%;
+    }
+    .nav-bar .p {
+        margin: auto 0 auto auto;
+        width: 30%;
+    }
+    /*--------------------section1 desktop----------------*/
+    .all-files img {
+        max-width: 70%;
+        z-index: 10;
+    }
+    .all-files :nth-child(2) {
+        font-size: 2.5em;
+        max-width: 55%;
+    }
+    .all-files :nth-child(3) {
+        font-weight: 100;
+        max-width: 490px;
+        line-height: 1.6em;
+    }
+    .all-files :nth-child(4) {
+        padding: 1em 5em;
+    }
+    /*------------------section 2 desktop---------*/
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 1079px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #snd {
+        margin-top: 5.5rem;
+    }
+    .con {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .con img {
+        margin-bottom: 2rem;
+    }
+    .con :nth-child(2) {
+        font-weight: 700;
+        font-family: Raleway;
+        margin-bottom: 1rem;
+        font-size: 1.3em;
+    }
+    .con :nth-child(3) {
+        max-width: 360px;
+    }
+    /*----------------------------------section 3 desktop------------------*/
+    .section3 {
+        margin: 6em 0 0 0;
+    }
+    .productive {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1100px;
+    }
+    .productive .pro-img {
+        width: 50%;
+        margin-bottom: 1.5em;
+    }
+    .rightt {
+        margin-left: 2rem;
+        align-items: flex-start
+    }
+    .productive .stay {
+        font-size: 2em;
+        margin-right: 4px;
+        width: 300px;
+        line-height: 45px;
+    }
+    .productive .never, .productive .securely {
+        font-weight: 100;
+        font-size: 14px;
+        max-width: 85%;
+        margin: 1rem 0 0 0;
+        line-height: 1.6em;
+    }
+    /*-----------------------------------section 4 desktop----------------------*/
+    .section4 {
+        margin: 8rem auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 950px;
+        justify-content: space-between;
+        position: relative;
+    }
+    .section4 .quotes {
+        position: absolute;
+        top: -30px;
+        z-index: -1;
+        left: -50px;
+        align-self: flex-start;
+        margin-left: 2.7rem;
+        height: 40px;
+    }
+    .profile1 {
+        background-color: hsl(219, 30%, 18%);
+        width: 300px;
+        padding: 1.8rem 1.5rem 1.5rem 1.5rem;
+        margin-bottom: 2rem;
+    }
+    /*---------------------------------section 5 Desktop---------------*/
+    .section5 {
+        margin-top: 1rem;
+        height: 15rem;
+    }
+    .sec5 {
+        position: relative;
+        top: 50%;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 2px 4px 2px 5px rgb(19, 18, 18);
+    }
+    .body5 {
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 1.5em;
+        margin: auto auto 0.8rem auto;
+        width: 500px;
+    }
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1.2rem;
+    }
+    #email, .sub {
+        padding: 1.2em;
+        width: 60%;
+    }
+    #email {
+        margin-right: 30px;
+        margin-bottom: 0;
+        text-align: left;
+        color: grey;
+    }
+    .sub {
+        width: 25%;
+    }
+    /*----------------------------------------section 6 mobile----------------------*/
+    .section6 {
+        background-color: hsl(216, 53%, 9%);
+        width: 100%
+    }
+    .sec6 {
+        padding-top: 20%;
+        width: 100%;
+    }
+    .img0 {
+        margin-left: 8%;
+        margin-bottom: 50px;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        width: 350px;
+        align-items: flex-start;
+        font-size: 11px;
+        margin-right: 3rem;
+    }
+    .info1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 11px;
+        align-items: center;
+    }
+    .img1 {
+        margin: 6px 2em 0 6%;
+    }
+    .p1 {
+        font-size: 12px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(216, 53%, 9%);
+        padding: 5rem 3rem 1rem 3rem;
+    }
+    .foot_row{
+         z-index: 100;
+         ;
+    }
+    .foot {
+        display: flex;
+        font-size: 11px;
+        width: 600px;
+        margin-left: 1rem;
+        flex-wrap: wrap;
+
+
+
+    }
+
+/*--------------------------section7------------------------*/
+
+.section7 {
+
+    margin-top: 13.98rem;
+    margin-left:8rem;
+    padding: 1rem;
+    width: 100%;
+    height: max-content;
+    font-size: 11px;
+    display: flex;
+}
+
+.first p, .second p {
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.first .blog {
+    margin-bottom: 0;
+}
+
+.first, .second {
+    display: block;
+    margin: 0 0 0 6%;
+    padding-top: 0;
+}
+
+.second {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-left: 4rem;
+}
+
+/*--------------------------section 8---------------------*/
+
+.section8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+    background-color: hsl(216, 53%, 9%);
+    margin-top:12rem
+}
+
+.tweet, .facebook {
+    margin-right: 3em;
+    border: solid white 1px;
+    border-radius: 50%;
+    padding: 5px;
+    align-self: flex-start;
+}
+
+.facebook {
+    margin: 0;
+}
+
+.fin {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    background-color: hsl(216, 53%, 9%);
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%)
+}
+}
